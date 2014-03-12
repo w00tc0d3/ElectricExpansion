@@ -7,3 +7,4 @@ eclipse/resourcepacks
 eclipse/saves
 .gradle
 build
+out
