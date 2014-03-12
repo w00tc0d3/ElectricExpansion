@@ -7,7 +7,10 @@ import net.minecraftforge.fluids.*;
 import cofh.api.energy.IEnergyHandler;
 
 
+/* Copied parts from the CoFH library, and parts of Forge */
+
 public class TileBasicMachine extends TileEntity implements IEnergyHandler, IFluidHandler {
+
     protected FluidTank tank = new FluidTank(10 * FluidContainerRegistry.BUCKET_VOLUME);
     protected EnergyStorage storage = new EnergyStorage(40000);
 
