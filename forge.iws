@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c002156b-6035-45fb-8c27-29a608434920" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileBasicMachine.java" afterPath="$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileBasicMachine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/electricexpansion/textures/blocks/fluxfurnace_front.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/electricexpansion/textures/blocks/fluxfurnace_front.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/electricexpansion/textures/blocks/fluxfurnace_side.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/electricexpansion/textures/blocks/fluxfurnace_side.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/electricexpansion/textures/blocks/fluxfurnace_top.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/electricexpansion/textures/blocks/fluxfurnace_top.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileFluxFurnace.java" afterPath="$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileFluxFurnace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forge.iws" afterPath="$PROJECT_DIR$/forge.iws" />
     </list>
     <ignored path="forge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,7 +21,7 @@
     <file path="/TileBasicMachine.java" changelist="c002156b-6035-45fb-8c27-29a608434920" time="1394668172185" ignored="false" />
     <file path="/TileFluxFurnace.java" changelist="c002156b-6035-45fb-8c27-29a608434920" time="1394662218057" ignored="false" />
     <file path="/Tank.java" changelist="c002156b-6035-45fb-8c27-29a608434920" time="1394660255283" ignored="false" />
-    <file path="/Dummy.txt" changelist="c002156b-6035-45fb-8c27-29a608434920" time="1394664645296" ignored="false" />
+    <file path="/Dummy.txt" changelist="c002156b-6035-45fb-8c27-29a608434920" time="1394669303138" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,16 +85,25 @@
       <file leaf-file-name="TileBasicMachine.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileBasicMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="57" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+            <state line="11" column="28" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IEnergyHandler.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cofh/api/energy/IEnergyHandler.java">
+      <file leaf-file-name="TileFluxFurnace.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileFluxFurnace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="360" selection-end="360" vertical-scroll-proportion="0.040816326">
+            <state line="18" column="32" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockFluxFurnace.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/blocks/BlockFluxFurnace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="49" selection-start="2397" selection-end="2397" vertical-scroll-proportion="0.21348314">
               <folding />
             </state>
           </provider>
@@ -122,9 +135,9 @@
         <option value="$PROJECT_DIR$/src/main/java/net/electricexpansion/api/IEnergyHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cofh/api/energy/IEnergyHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cofh/api/energy/TileEnergyHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileFluxFurnace.java" />
         <option value="$PROJECT_DIR$/src/main/java/cofh/api/energy/ItemEnergyContainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileBasicMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileFluxFurnace.java" />
       </list>
     </option>
   </component>
@@ -133,10 +146,8 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="18" />
-    <option name="y" value="72" />
-    <option name="width" value="1332" />
-    <option name="height" value="694" />
+    <option name="width" value="1350" />
+    <option name="height" value="713" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -169,7 +180,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -368,12 +378,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="electricexpansion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="energy" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -390,9 +431,9 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.Minecraft Client">
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
@@ -531,7 +572,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="72" width="1332" height="694" extended-state="0" />
+    <frame x="0" y="0" width="1350" height="713" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -547,8 +588,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2538941" sideWeight="0.666087" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33391306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25345623" sideWeight="0.6666667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -628,9 +669,7 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraftforge/fluids/FluidStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="426" selection-end="426" vertical-scroll-proportion="0.21468927">
-          <folding />
-        </state>
+        <state line="18" column="13" selection-start="426" selection-end="426" vertical-scroll-proportion="0.21468927" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraftforge/fluids/IFluidTank.java">
@@ -640,25 +679,12 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraftforge/fluids/FluidTank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="12" selection-start="859" selection-end="916" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="38" column="12" selection-start="859" selection-end="916" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/Tank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="47" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.92802054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/blocks/BlockFluxFurnace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="23" selection-start="2700" selection-end="2700" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="63" column="47" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.92802054" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraftforge/fluids/IFluidHandler.java">
@@ -678,9 +704,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/ElectricExpansion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="26" selection-start="987" selection-end="987" vertical-scroll-proportion="0.5421348">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cofh/api/energy/IEnergyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="17" selection-start="360" selection-end="360" vertical-scroll-proportion="-0.6938776">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cofh/api/energy/IEnergyContainerItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="310" selection-end="310" vertical-scroll-proportion="-0.79888266">
+        <state line="12" column="17" selection-start="310" selection-end="310" vertical-scroll-proportion="-0.08163265">
           <folding />
         </state>
       </provider>
@@ -694,37 +736,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cofh/api/energy/TileEnergyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="48" selection-start="788" selection-end="788" vertical-scroll-proportion="0.039325844">
+        <state line="33" column="48" selection-start="788" selection-end="788" vertical-scroll-proportion="0.33146068">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileBasicMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="57" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+        <state line="11" column="28" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileFluxFurnace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="33" selection-start="738" selection-end="738" vertical-scroll-proportion="0.8258427">
+        <state line="18" column="32" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/ElectricExpansion.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/blocks/BlockFluxFurnace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="26" selection-start="987" selection-end="987" vertical-scroll-proportion="0.5421348">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cofh/api/energy/IEnergyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="360" selection-end="360" vertical-scroll-proportion="0.040816326">
+        <state line="61" column="49" selection-start="2397" selection-end="2397" vertical-scroll-proportion="0.21348314">
           <folding />
         </state>
       </provider>
