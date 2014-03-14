@@ -1,6 +1,8 @@
 package net.electricexpansion.tiles;
 
+import net.electricexpansion.utils.Coordinates;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.world.World;
 
 /**
  * @author netchip
@@ -8,6 +10,12 @@ import net.minecraft.tileentity.TileEntity;
  */
 public class TileElectricConduit extends TileEntity {
     TileController currentController;
+    Coordinates coords;
+    World world;
+
+    public TileElectricConduit() {
+        this.world = this.getWorldObj();
+    }
 
     public void setController(TileController controller) {
         this.currentController = controller;
@@ -17,11 +25,14 @@ public class TileElectricConduit extends TileEntity {
         return currentController;
     }
 
-    public void registerAtController() {
+    public void passCoordinates() {
+    }
 
+    public void registerAtController() {
+        currentController.registerConduit(coords);
     }
 
     public void unregisterAtController() {
-
+        currentController.unregisterConduit();
     }
 }
