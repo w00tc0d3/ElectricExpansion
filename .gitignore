@@ -4,8 +4,9 @@ eclipse/logs
 eclipse/mods
 eclipse/options.txt
 eclipse/resourcepacks
+eclipse/screenshots
 eclipse/saves
 .gradle
 build
 out
-forge.iws
+forge.*

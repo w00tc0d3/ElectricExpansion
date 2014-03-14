@@ -28,7 +28,7 @@ public class BlockFluxFurnace extends Block {
         super(Material.iron);
         this.setCreativeTab(CreativeTabs.tabBlock);
         setStepSound(Block.soundTypeStone);
-        setHardness(10F);
+        setHardness(10.0F);
     }
 
     @Override
