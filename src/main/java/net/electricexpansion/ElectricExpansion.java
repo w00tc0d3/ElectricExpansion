@@ -13,6 +13,9 @@ import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.fluids.Fluid;
+import net.minecraftforge.fluids.FluidRegistry;
+import net.electricexpansion.fluids.*;
 
 @Mod(modid = ElectricExpansion.modID, version = ElectricExpansion.VERSION)
 public class ElectricExpansion {
@@ -31,6 +34,15 @@ public class ElectricExpansion {
         // register blocks, items etc
         GameRegistry.registerBlock(blockFluxFurnace, "FluxFurnace");
         GameRegistry.registerTileEntity(TileFluxFurnace.class, "tileFluxFurnace");
+        
+        Fluids.coolantT1 = new Fluid("coolantTier1");
+        FluidRegistry.registerFluid(Fluids.coolantT1);
+        Fluids.coolantT1.setGaseous(true);
+        Fluids.coolantT1.setViscosity(500);
+        Fluids.coolantT1.setTemperature(295);
+        Fluids.coolantT1.setLuminosity(0);
+        Fluids.coolantT1.setDensity(100);
+        Fluids.coolantT1.setUnlocalizedName("coolantTier1");
     }
 
     @EventHandler
