@@ -35,6 +35,7 @@ public class ElectricExpansion {
         GameRegistry.registerBlock(blockFluxFurnace, "FluxFurnace");
         GameRegistry.registerTileEntity(TileFluxFurnace.class, "tileFluxFurnace");
         
+        //Teh fluids
         Fluids.coolantT1 = new Fluid("coolantTier1");
         FluidRegistry.registerFluid(Fluids.coolantT1);
         Fluids.coolantT1.setGaseous(true);
@@ -43,6 +44,11 @@ public class ElectricExpansion {
         Fluids.coolantT1.setLuminosity(0);
         Fluids.coolantT1.setDensity(100);
         Fluids.coolantT1.setUnlocalizedName("coolantTier1");
+        
+        Fluids.coolantT2 = new Fluid("coolantTier2");
+        FluidRegistry.registerFluid(Fluids.coolantT2);
+        Fluids.coolantT2.setGaseous(false);
+        
     }
 
     @EventHandler

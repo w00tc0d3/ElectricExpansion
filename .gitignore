@@ -1,12 +1,6 @@
-eclipse/config
-eclipse/crash-reports
-eclipse/logs
-eclipse/mods
-eclipse/options.txt
-eclipse/resourcepacks
-eclipse/screenshots
-eclipse/saves
+eclipse/
 .gradle
 build
 out
 forge.*
+bin/
