@@ -3,4 +3,4 @@ eclipse/
 build
 out
 forge.*
-bin/
+#bin/
