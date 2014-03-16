@@ -1,6 +1,6 @@
-eclipse/
+eclipse/.metadata
 .gradle
 build
 out
 forge.*
-#bin/
+bin/

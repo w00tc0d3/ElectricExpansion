@@ -26,4 +26,16 @@ public class Coordinates {
     public int getZ() {
         return z;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if(o == null)
+            return false;
+
+        if(o instanceof Coordinates) {
+            if(((Coordinates) o).getX() == this.x && ((Coordinates) o).getY() == this.y && ((Coordinates) o).getZ() == this.z)
+                return true;
+        }
+        return false;
+    }
 }

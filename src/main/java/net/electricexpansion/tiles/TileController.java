@@ -21,4 +21,8 @@ public class TileController extends TileEntity {
         // this is the easiest way to prevent that
         listConduits.clear();
     }
+
+    public void searchForEnergyConsumers() {
+
+    }
 }

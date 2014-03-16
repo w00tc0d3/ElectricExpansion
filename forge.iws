@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c002156b-6035-45fb-8c27-29a608434920" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/electricexpansion/network/AbstractPacket.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/electricexpansion/network/PacketPipeline.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileElectricConduit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/electricexpansion/blocks/BlockFluxFurnace.java" afterPath="$PROJECT_DIR$/src/main/java/net/electricexpansion/blocks/BlockFluxFurnace.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/electricexpansion/ElectricExpansion.java" afterPath="$PROJECT_DIR$/src/main/java/net/electricexpansion/ElectricExpansion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forge.ipr" afterPath="$PROJECT_DIR$/forge.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/electricexpansion/utils/Coordinates.java" afterPath="$PROJECT_DIR$/src/main/java/net/electricexpansion/utils/Coordinates.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileController.java" afterPath="$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileElectricConduit.java" afterPath="$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileElectricConduit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forge.iws" afterPath="$PROJECT_DIR$/forge.iws" />
     </list>
     <ignored path="forge.iws" />
@@ -77,9 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileFluxFurnace.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="35" column="45" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="846">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,10 +81,8 @@
       <file leaf-file-name="ElectricExpansion.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/ElectricExpansion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="35" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="936">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="26" column="35" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0" vertical-offset="71" max-vertical-offset="720">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,13 +90,8 @@
       <file leaf-file-name="TileElectricConduit.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileElectricConduit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="40" selection-start="508" selection-end="508" vertical-scroll-proportion="0.7887324" vertical-offset="78" max-vertical-offset="594">
-              <folding>
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-              </folding>
+            <state line="32" column="8" selection-start="778" selection-end="778" vertical-scroll-proportion="0.6671803" vertical-offset="35" max-vertical-offset="774">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,7 +99,28 @@
       <file leaf-file-name="TileController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="46" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+            <state line="25" column="0" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#311#324#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Coordinates.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/utils/Coordinates.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="5" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="738">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Block.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraft/block/Block.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="792" column="21" selection-start="51594" selection-end="51599" vertical-scroll-proportion="0.0" vertical-offset="14580" max-vertical-offset="45036">
               <folding />
             </state>
           </provider>
@@ -149,6 +157,7 @@
         <option value="$PROJECT_DIR$/src/main/java/net/electricexpansion/network/AbstractPacket.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/electricexpansion/ElectricExpansion.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/electricexpansion/network/PacketPipeline.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/electricexpansion/utils/Coordinates.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileController.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileElectricConduit.java" />
       </list>
@@ -195,8 +204,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -285,37 +292,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forgeSrc-1.7.2-10.12.0.1046.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minecraft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
+              <option name="myItemId" value="block" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,6 +347,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="electricexpansion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="electricexpansion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -491,6 +498,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -729,13 +738,11 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399361" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33391306" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -746,6 +753,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -776,6 +785,16 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="46" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="288">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileBasicMachine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="38" selection-start="1696" selection-end="1696" vertical-scroll-proportion="0.0" vertical-offset="1098" max-vertical-offset="1692">
@@ -799,17 +818,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/Tank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="47" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.0" vertical-offset="1134" max-vertical-offset="1782">
-          <folding />
-        </state>
+        <state line="63" column="47" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.0" vertical-offset="1134" max-vertical-offset="1782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileFluxFurnace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="32" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="846">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -852,17 +867,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/Tank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="47" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="1386">
-          <folding />
-        </state>
+        <state line="63" column="47" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="1386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileFluxFurnace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="32" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="658">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -923,9 +934,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/Tank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="47" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="63" column="47" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cofh/api/energy/TileEnergyHandler.java">
@@ -958,58 +967,42 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraftforge/common/network/DimensionMessageHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="363" selection-end="363" vertical-scroll-proportion="0.110939905" vertical-offset="0" max-vertical-offset="649">
-          <folding />
-        </state>
+        <state line="9" column="13" selection-start="363" selection-end="363" vertical-scroll-proportion="0.110939905" vertical-offset="0" max-vertical-offset="649" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraftforge/common/network/FluidIdRegistryMessageHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="282" selection-end="282" vertical-scroll-proportion="0.110939905" vertical-offset="0" max-vertical-offset="649">
-          <folding />
-        </state>
+        <state line="10" column="13" selection-start="282" selection-end="282" vertical-scroll-proportion="0.110939905" vertical-offset="0" max-vertical-offset="649" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraftforge/common/network/ForgeMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="305" selection-end="305" vertical-scroll-proportion="-0.74730355" vertical-offset="557" max-vertical-offset="1206">
-          <folding />
-        </state>
+        <state line="12" column="22" selection-start="305" selection-end="305" vertical-scroll-proportion="-0.74730355" vertical-offset="557" max-vertical-offset="1206" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraftforge/common/network/ForgeNetworkHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="446" selection-end="446" vertical-scroll-proportion="0.11320755" vertical-offset="0" max-vertical-offset="648">
-          <folding />
-        </state>
+        <state line="11" column="13" selection-start="446" selection-end="446" vertical-scroll-proportion="0.11320755" vertical-offset="0" max-vertical-offset="648" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraftforge/classloading/FMLForgePlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="150" selection-end="150" vertical-scroll-proportion="0.110939905" vertical-offset="0" max-vertical-offset="810">
-          <folding />
-        </state>
+        <state line="7" column="13" selection-start="150" selection-end="150" vertical-scroll-proportion="0.110939905" vertical-offset="0" max-vertical-offset="810" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraft/inventory/ContainerPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="485" selection-end="485" vertical-scroll-proportion="-4.8301888" vertical-offset="3144" max-vertical-offset="3780">
-          <folding />
-        </state>
+        <state line="14" column="13" selection-start="485" selection-end="485" vertical-scroll-proportion="-4.8301888" vertical-offset="3144" max-vertical-offset="3780" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraft/inventory/ContainerHopper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="186" selection-end="186" vertical-scroll-proportion="0.11320755" vertical-offset="0" max-vertical-offset="1656">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="186" selection-end="186" vertical-scroll-proportion="0.11320755" vertical-offset="0" max-vertical-offset="1656" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraft/inventory/ISidedInventory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="89" selection-end="89" vertical-scroll-proportion="0.11320755" vertical-offset="0" max-vertical-offset="636">
-          <folding />
-        </state>
+        <state line="4" column="17" selection-start="89" selection-end="89" vertical-scroll-proportion="0.11320755" vertical-offset="0" max-vertical-offset="636" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/network/AbstractPacket.java">
@@ -1045,88 +1038,84 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileFluxFurnace.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="45" selection-start="952" selection-end="952" vertical-scroll-proportion="0.0" vertical-offset="197" max-vertical-offset="846">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraft/client/gui/GuiButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="419" selection-end="419" vertical-scroll-proportion="0.21791768" vertical-offset="0" max-vertical-offset="2790">
-          <folding />
-        </state>
+        <state line="12" column="13" selection-start="419" selection-end="419" vertical-scroll-proportion="0.21791768" vertical-offset="0" max-vertical-offset="2790" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraft/client/gui/Gui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="358" selection-end="358" vertical-scroll-proportion="0.21791768" vertical-offset="0" max-vertical-offset="3078">
-          <folding />
-        </state>
+        <state line="11" column="13" selection-start="358" selection-end="358" vertical-scroll-proportion="0.21791768" vertical-offset="0" max-vertical-offset="3078" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraft/client/gui/inventory/GuiBeacon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="23" selection-start="7758" selection-end="7758" vertical-scroll-proportion="-4.74359" vertical-offset="5378" max-vertical-offset="5994">
-          <folding />
-        </state>
+        <state line="216" column="23" selection-start="7758" selection-end="7758" vertical-scroll-proportion="-4.74359" vertical-offset="5378" max-vertical-offset="5994" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraft/client/gui/inventory/GuiContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="232" column="5" selection-start="8523" selection-end="8523" vertical-scroll-proportion="-1.6731235" vertical-offset="4489" max-vertical-offset="13572">
-          <folding />
-        </state>
+        <state line="232" column="5" selection-start="8523" selection-end="8523" vertical-scroll-proportion="-1.6731235" vertical-offset="4489" max-vertical-offset="13572" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraft/client/gui/GuiHopper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="53" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.7820823" vertical-offset="217" max-vertical-offset="792">
-          <folding />
+        <state line="38" column="53" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.7820823" vertical-offset="217" max-vertical-offset="792" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraft/block/BlockAir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.11320755" vertical-offset="0" max-vertical-offset="1044" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/blocks/BlockFluxFurnace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="24" selection-start="761" selection-end="761" vertical-scroll-proportion="-0.411093" vertical-offset="594" max-vertical-offset="1458">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1046/forgeSrc-1.7.2-10.12.0.1046-sources.jar!/net/minecraft/block/Block.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="774" column="36" selection-start="50974" selection-end="50974" vertical-scroll-proportion="0.33246753" vertical-offset="12418" max-vertical-offset="45036">
+        <state line="792" column="21" selection-start="51594" selection-end="51599" vertical-scroll-proportion="0.0" vertical-offset="14580" max-vertical-offset="45036">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/blocks/BlockFluxFurnace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="24" selection-start="761" selection-end="761" vertical-scroll-proportion="0.69733655" vertical-offset="54" max-vertical-offset="1458">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/ElectricExpansion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="35" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="936">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/utils/Coordinates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="5" selection-start="429" selection-end="429" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="738">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="46" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
-          <folding />
+        <state line="25" column="0" selection-start="677" selection-end="677" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#324#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/electricexpansion/tiles/TileElectricConduit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="508" selection-end="508" vertical-scroll-proportion="0.7887324" vertical-offset="78" max-vertical-offset="594">
-          <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-          </folding>
+        <state line="32" column="8" selection-start="778" selection-end="778" vertical-scroll-proportion="0.6671803" vertical-offset="35" max-vertical-offset="774">
+          <folding />
         </state>
       </provider>
     </entry>

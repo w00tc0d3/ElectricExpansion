@@ -25,7 +25,12 @@ public class TileElectricConduit extends TileEntity {
         return currentController;
     }
 
-    public void passCoordinates() {
+    public void passCoordinates(TileElectricConduit te) {
+        te.setController(currentController);
+    }
+
+    public void setCoordinates() {
+        
     }
 
     public void registerAtController() {
