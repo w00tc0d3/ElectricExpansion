@@ -41,7 +41,7 @@ public class TileController extends TileEntity {
             if(world.getTileEntity(tmpX, tmpY, tmpZ) instanceof TileElectricConduit) {
                 tc = (TileElectricConduit) world.getTileEntity(tmpX, tmpY, tmpZ);
                 for(ForgeDirection dir : ForgeDirection.VALID_DIRECTIONS) {
-                    tc.
+                    //TODO finish this
                 }
             } else {
                 unregisterConduit();
