@@ -38,17 +38,11 @@ public class ElectricExpansion {
         //Teh fluids
         Fluids.coolantT1 = new Fluid("coolantTier1");
         FluidRegistry.registerFluid(Fluids.coolantT1);
-        Fluids.coolantT1.setGaseous(true);
-        Fluids.coolantT1.setViscosity(500);
-        Fluids.coolantT1.setTemperature(295);
-        Fluids.coolantT1.setLuminosity(0);
-        Fluids.coolantT1.setDensity(100);
-        Fluids.coolantT1.setUnlocalizedName("coolantTier1");
-        
+
         Fluids.coolantT2 = new Fluid("coolantTier2");
         FluidRegistry.registerFluid(Fluids.coolantT2);
-        Fluids.coolantT2.setGaseous(false);
-        
+
+        Fluids.registerFluids();
     }
 
     @EventHandler
