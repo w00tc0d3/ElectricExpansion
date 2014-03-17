@@ -24,8 +24,8 @@ public class TileController extends TileEntity {
     }
 
     public void unregisterConduit() {
-        // make sure we rebuild the network, we don't want weird stuff to happen.
-        // this is the easiest way to prevent that
+        // Make sure we rebuild the network, we don't want weird stuff to happen.
+        // This is the easiest way to prevent that
         listConduits.clear();
     }
 

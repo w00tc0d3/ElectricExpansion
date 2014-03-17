@@ -41,6 +41,9 @@ public class ElectricExpansion {
 
         Fluids.coolantT2 = new Fluid("coolantTier2");
         FluidRegistry.registerFluid(Fluids.coolantT2);
+        
+        Fluids.coolantT3 = new Fluid("coolantTier3");
+        FluidRegistry.registerFluid(Fluids.coolantT3);
 
         Fluids.registerFluids();
     }
