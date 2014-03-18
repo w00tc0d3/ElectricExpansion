@@ -44,7 +44,11 @@ public class ElectricExpansion {
         
         Fluids.coolantT3 = new Fluid("coolantTier3");
         FluidRegistry.registerFluid(Fluids.coolantT3);
-
+        
+        Fluids.coolantT4 = new Fluid("coolantTier4");
+        FluidRegistry.registerFluid(Fluids.coolantT4);
+        
+        // This method gives the fluids properties such as densities and stuff, mainly to not look so ugly. :p
         Fluids.registerFluids();
     }
 
