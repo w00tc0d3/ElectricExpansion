@@ -1,5 +1,6 @@
 package net.electricexpansion.tiles;
 
+import cofh.api.energy.IEnergyHandler;
 import net.electricexpansion.utils.Coordinates;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
@@ -13,10 +14,9 @@ import java.util.ArrayList;
  */
 public class TileController extends TileEntity {
     ArrayList<Coordinates> listConduits = new ArrayList<Coordinates>();
-    World world;
+    ArrayList<Coordinates> listEnergyHandlers = new ArrayList<Coordinates>();
 
     public TileController() {
-        this.world = getWorldObj();
     }
 
     public void registerConduit(Coordinates coords) {
@@ -29,7 +29,13 @@ public class TileController extends TileEntity {
         listConduits.clear();
     }
 
-    public void searchForEnergyConsumers() {
+    protected void registerEnergyHandler(TileEntity te) {
+        if(te == null)
+            return;
+        listEnergyHandlers.add(new Coordinates(te.xCoord, te.yCoord, te.zCoord));
+    }
+
+    public void searchForEnergyHandlers() {
         TileElectricConduit tc;
         int tmpX;
         int tmpY;
@@ -38,10 +44,13 @@ public class TileController extends TileEntity {
             tmpX = listConduits.get(i).getX();
             tmpY = listConduits.get(i).getY();
             tmpZ = listConduits.get(i).getZ();
-            if(world.getTileEntity(tmpX, tmpY, tmpZ) instanceof TileElectricConduit) {
-                tc = (TileElectricConduit) world.getTileEntity(tmpX, tmpY, tmpZ);
+            if(worldObj.getTileEntity(tmpX, tmpY, tmpZ) instanceof TileElectricConduit) {
+                tc = (TileElectricConduit) worldObj.getTileEntity(tmpX, tmpY, tmpZ);
                 for(ForgeDirection dir : ForgeDirection.VALID_DIRECTIONS) {
-                    //TODO finish this
+                    if(worldObj.getTileEntity(tmpX + dir.offsetX, tmpY + dir.offsetY, tmpZ + dir.offsetZ) == null)
+                        break;
+                    if(worldObj.getTileEntity(tmpX + dir.offsetX, tmpY + dir.offsetY, tmpZ + dir.offsetZ) instanceof IEnergyHandler)
+                        registerEnergyHandler(worldObj.getTileEntity(tmpX + dir.offsetX, tmpY + dir.offsetY, tmpZ + dir.offsetZ));
                 }
             } else {
                 unregisterConduit();
