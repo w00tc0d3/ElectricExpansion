@@ -10,11 +10,8 @@ import net.minecraft.world.World;
  */
 public class TileElectricConduit extends TileEntity {
     TileController currentController;
-    Coordinates coords;
-    World world;
 
     public TileElectricConduit() {
-        this.world = this.getWorldObj();
     }
 
     public void setController(TileController controller) {
@@ -30,12 +27,8 @@ public class TileElectricConduit extends TileEntity {
         te.setController(currentController);
     }
 
-    public void setCoordinates(int x, int y, int z) {
-        this.coords = new Coordinates(x, y, z);
-    }
-
     public void registerAtController() {
-        currentController.registerConduit(coords);
+        currentController.registerConduit(this);
     }
 
     public void unregisterAtController() {

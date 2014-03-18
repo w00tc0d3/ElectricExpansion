@@ -19,13 +19,16 @@ public class TileController extends TileEntity {
     public TileController() {
     }
 
-    public void registerConduit(Coordinates coords) {
-        listConduits.add(coords);
+    public void registerConduit(TileElectricConduit tileElectricConduit) {
+        if(tileElectricConduit == null)
+            return;
+        listConduits.add(new Coordinates(tileElectricConduit.xCoord, tileElectricConduit.yCoord, tileElectricConduit.zCoord));
     }
 
     public void unregisterConduit() {
         // Make sure we rebuild the network, we don't want weird stuff to happen.
         // This is the easiest way to prevent that
+        //TODO make this not rebuild the whole network, but scan parts.
         listConduits.clear();
     }
 
@@ -36,7 +39,6 @@ public class TileController extends TileEntity {
     }
 
     public void searchForEnergyHandlers() {
-        TileElectricConduit tc;
         int tmpX;
         int tmpY;
         int tmpZ;
@@ -45,7 +47,6 @@ public class TileController extends TileEntity {
             tmpY = listConduits.get(i).getY();
             tmpZ = listConduits.get(i).getZ();
             if(worldObj.getTileEntity(tmpX, tmpY, tmpZ) instanceof TileElectricConduit) {
-                tc = (TileElectricConduit) worldObj.getTileEntity(tmpX, tmpY, tmpZ);
                 for(ForgeDirection dir : ForgeDirection.VALID_DIRECTIONS) {
                     if(worldObj.getTileEntity(tmpX + dir.offsetX, tmpY + dir.offsetY, tmpZ + dir.offsetZ) == null)
                         break;
