@@ -3,9 +3,13 @@ package net.electricexpansion;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.electricexpansion.blocks.BlockController;
+import net.electricexpansion.blocks.BlockElectricConduit;
 import net.electricexpansion.blocks.BlockFluxFurnace;
 import net.electricexpansion.network.PacketPipeline;
+import net.electricexpansion.tiles.TileElectricConduit;
 import net.electricexpansion.tiles.TileFluxFurnace;
+import net.electricexpansion.tiles.TileController;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import cpw.mods.fml.common.Mod;
@@ -28,12 +32,20 @@ public class ElectricExpansion {
     public static final PacketPipeline packetPipeline = new PacketPipeline();
 
     public final static Block blockFluxFurnace = new BlockFluxFurnace().setBlockName("FluxFurnace");
+    public final static Block blockElectricConduit = new BlockElectricConduit().setBlockName("ElectricConduit");
+    public final static Block blockController = new BlockController().setBlockName("Controller");
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         // register blocks, items etc
+    	
+    	// Teh blocks and TileEntities
         GameRegistry.registerBlock(blockFluxFurnace, "FluxFurnace");
         GameRegistry.registerTileEntity(TileFluxFurnace.class, "tileFluxFurnace");
+        GameRegistry.registerBlock(blockElectricConduit, "ElectricConduit");
+        GameRegistry.registerTileEntity(TileElectricConduit.class, "tileElectricConduit");
+        GameRegistry.registerBlock(blockController, "Controller");
+        GameRegistry.registerTileEntity(TileController.class, "tileController");
         
         //Teh fluids
         Fluids.coolantT1 = new Fluid("coolantTier1");

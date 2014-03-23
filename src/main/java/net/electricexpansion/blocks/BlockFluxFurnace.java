@@ -52,7 +52,7 @@ public class BlockFluxFurnace extends Block {
 
         // ForgeDirection direction = ForgeDirection.getOrientation(MathHelper.floor_double(livingBase.rotationYaw * 4.0F / 360.0F + 0.5D) & 3);
         world.setBlockMetadataWithNotify(x, y, z, orientationTable[orientationIndex].getOpposite().ordinal(), 1);
-    }
+    }	
 
     @Override
     @SideOnly(Side.CLIENT)

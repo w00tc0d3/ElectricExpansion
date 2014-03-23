@@ -1,6 +1,0 @@
-package net.electricexpansion.fluids;
-
-public class Fluids {
-
-	public static Fluid coolantT1;
-}
