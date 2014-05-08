@@ -6,3 +6,8 @@ forge.*
 bin/
 eclipse/.metadata/
 eclipse/.metadata
+.classpath
+.idea/
+ElectricExpansion.iml
+ElectricExpansion.ipr
+ElectricExpansion.iws
